@@ -19,7 +19,7 @@ setup(
     author_email='ross@karchner.com',
     packages=find_packages(),
     include_package_data=True,
-    url='http://github.com/rosskarchner/sillysignin',
+    url='https://github.com/rosskarchner/django-sillysignin',
     license='Same license as Python',
     description=u' '.join(__import__('sillysignin').__doc__.splitlines()).strip(),
     classifiers=[
