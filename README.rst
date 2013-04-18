@@ -5,11 +5,11 @@ sillysignin
 What is sillysignin?
 --------------------
 
-I used to spend a lot of time working with Google App Engine. One of my favorite GAE features is was that, when you run an app locally (dev_appserver.py), it includes a dead-simple, password-free, simulated login page. Enter any email address in the box, and suddenly you are logged into your app as a user with that email address. 
+I used to spend a lot of time working with Google App Engine. One of my favorite GAE features is was that, when you run an app locally (dev_appserver.py), it includes a simple, password-free, simulated login page. Enter any email address in the box, and suddenly you are logged into your app as a user with that email address. 
 
 When you're GAE app is deployed, you get all the benefit of the full-fledged authentication page. If your app worked in the simulator, it should work in production as well.
 
-'sillysignin' is basically that, for plain old Django apps. It provides a dead-simple, dead-standard login page (and authentication provider) that only requires usernames, and automatically creates non-existant accounts.
+'sillysignin' is basically that, for plain old Django apps. It provides a dead-simple, dead-standard login page (and authentication provider) that only requires usernames, and automatically creates non-existent accounts.
 
 Needless to say, you shouldn't use this in production. It exists because I'm working on a reusable (I  hope) Django app, and being able to quickly log in as a new user, and not worry about account creation and passwords, is useful.
 
