@@ -18,7 +18,7 @@ Make it go
 
 It depends on django-class-based-auth-views, which made my work super easy. If you're writing your own authentication views, you should use it.
 
-* Install it using your favorite method for doing such things(like "pip install django-sillysignon").
+* Install it using your favorite method for doing such things(like "pip install django-sillysignin").
 * Add sillysignin to your INSTALLED_APPS
 * Set AUTHENTICATION_BACKENDS = ('sillysignin.backends.SillyAuthBackend',)
 * Map the URL: url(r'^accounts/', include('sillysignin.urls')),
