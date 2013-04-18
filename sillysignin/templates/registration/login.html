@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Sign in!</title>
+        <style>
+            body{
+                font-family:sans-serif;
+                font-size:14px;
+            }
+            #signin{
+                border-size:4px;
+                border-style:solid;
+                border-color:black;
+                width: 25em;
+                padding:3em;
+            }
+
+            #signin label{
+                display:block;
+                font-weight:bold;
+            }
+            .helptext{
+                font-style:italic;
+                width:20em;
+            }
+    
+        </style> 
+
+
+
+    </head>
+<body>
+<form method="POST" id="signin">
+    <label>{{form.username.label}}:</label>
+    {{form.username}}
+        <div class="helptext"> {{form.username.help_text}}</div>
+    <div id="buttons">
+        <input type = "submit" value="Sign in"/>
+    </div>
+{% csrf_token %}
+</form>
+
+
+</body>
+</html>
