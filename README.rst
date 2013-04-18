@@ -1,3 +1,7 @@
+================
+sillysignin
+================
+
 What is sillysignin?
 --------------------
 
@@ -22,7 +26,7 @@ It depends on django-class-based-auth-views, which made my work super easy. If y
 (If you don't want to use /accounts, be sure to configure LOGIN_URL and LOGOUT_URL appropriately)
 
 What will the future bring?
-------------------------
+---------------------------
 
-It might be fun if you could "decorate" another authentication app, such that it automatically uses the your "real" authentication system in production, but uses sillysignin while your developing (maybe on DEBUG=True?)
+It might be fun if you could "decorate" another authentication app, such that it automatically uses the your "real" authentication system in production, but uses sillysignin while you are developing (maybe on DEBUG=True?)
 
