@@ -34,4 +34,5 @@ setup(
     ],
     long_description=read_file('README.rst'),
     zip_safe=False,
+    install_requires=['django-class-based-auth-views']
 )
